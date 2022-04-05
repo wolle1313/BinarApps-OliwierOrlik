@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/BinarApps-OliwierOrlik/static/css/main.60ae291c.css",
+    "main.js": "/BinarApps-OliwierOrlik/static/js/main.d5b65ab5.js",
+    "index.html": "/BinarApps-OliwierOrlik/index.html",
+    "main.60ae291c.css.map": "/BinarApps-OliwierOrlik/static/css/main.60ae291c.css.map",
+    "main.d5b65ab5.js.map": "/BinarApps-OliwierOrlik/static/js/main.d5b65ab5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60ae291c.css",
+    "static/js/main.d5b65ab5.js"
+  ]
+}
