@@ -1,0 +1,74 @@
+
+.wordCloud {
+    width: 500px;
+    border: 1px solid black;
+    padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+.row {
+    display: flex;
+    margin: 15px 0;
+}
+.gameBtn {
+    margin-top: 27px;
+    border-radius: 3px;
+    padding: 5px 27px;
+    color: var(--lightBlue-color);
+    font-size: 12px;
+    background-color: var(--background-color);
+    border: 1px solid var(--lightBlue-color)
+}
+.secRow {
+    justify-content: space-between;
+}
+.thirdRow {
+    justify-content: space-around;
+}
+.fourthRow {
+    justify-content: space-around;
+}
+.cloudWord {
+    width: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.canSelect {
+    cursor: pointer;
+}
+.firstRow .cloudWord {
+    text-align: left;
+}
+.cloudWord.selectedWord {
+    color: var(--lightGray-color);
+}
+.cloudWord.goodWord {
+    color: var(--goodWordGreen-color);
+    position: relative
+}
+.cloudWord.goodWord::before {
+    color: var(--goodGreen-color);
+    content: 'Good';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+}
+.cloudWord.badWord {
+    color: var(--badWordRed-color);
+    position: relative
+}
+.cloudWord.badWord::before {
+    color: var(--badRed-color);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    content: 'Bad'
+}
+.firstRow .cloudWord.goodWord::before {
+    left: 15px;
+}
+.firstRow .cloudWord.badWord::before {
+    left: 15px;
+}

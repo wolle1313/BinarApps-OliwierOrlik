@@ -1,0 +1,1 @@
+export {gameInfoApi} from './gameInfoApi'

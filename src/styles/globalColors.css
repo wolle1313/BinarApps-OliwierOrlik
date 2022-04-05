@@ -1,0 +1,10 @@
+:root {
+    --lightRed-color: rgb(250, 107, 107);
+    --background-color: rgb(255, 255, 255);
+    --lightBlue-color: rgb(51, 153, 184);
+    --lightGray-color: rgb(175, 174, 174);
+    --goodWordGreen-color: rgb(141, 216, 27);
+    --goodGreen-color: rgb(110, 161, 33);
+    --badWordRed-color: rgb(255, 86, 86);
+    --badRed-color: rgb(255, 131, 131);
+}

@@ -1,0 +1,17 @@
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.points {
+    margin-top: 20px;
+    color: var(--lightBlue-color)
+}
+.newGameBtn {
+    margin-top: 30px;
+    padding: 7px 25px;
+    background-color: var(--background-color);
+    border: 2px solid var(--lightBlue-color);
+    color: var(--lightBlue-color);
+    border-radius: 5px;
+}
